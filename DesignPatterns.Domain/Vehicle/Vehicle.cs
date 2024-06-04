@@ -1,4 +1,4 @@
-﻿using DesignPatterns.Domain.Shared;
+﻿using DesignPatterns.Domain.Abstractions;
 
 namespace DesignPatterns.Domain.Vehicle
 {

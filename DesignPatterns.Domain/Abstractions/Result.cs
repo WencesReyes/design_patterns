@@ -16,7 +16,7 @@
         public static Result<TValue> Create(TValue value)
             => new(value);
 
-        public static implicit operator Result<TValue>(TValue value)
-            => Create(value);
+        public static implicit operator Result<TValue>(TValue? value)
+            => value is null ? throw new NullReferenceException() : Create(value);
     }
 }

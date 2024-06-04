@@ -1,4 +1,4 @@
-﻿namespace DesignPatterns.Domain.Shared
+﻿namespace DesignPatterns.Domain.Abstractions
 {
     public abstract class Entity<TId> 
     {
